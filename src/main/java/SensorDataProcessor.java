@@ -11,15 +11,17 @@ public DataProcessor(double[][][] data, double[][] limit) {
     this.data = data;
     this.limit = limit;
 }
+    
 // calculates average of sensor data
+// Modifying the name of the Double Function variables by ( Majed )
 private double average(double[] array) {
-    int i = 0;
-    double val = 0;
-    for (i = 0; i < array.length; i++) {
-        val += array[i];
+    double total = 0;
+    for (int count = 0; count < array.length; count++) {
+        total += array[count];
     }
-    return val / array.length;
+    return total / array.length;
 }
+    
 // calculate data
 public void calculate(double d) {
     int i, j, k = 0;
