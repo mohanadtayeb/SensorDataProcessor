@@ -1,3 +1,9 @@
+/*added
+'java.io.BufferedWriter' and 'java.io.FileWriter'
+import statements by ( Salman ) */
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+
 public class SensorDataProcessor {
 
 // Senson data and limits.
@@ -5,9 +11,8 @@ public double[][][] data;
 public double[][] limit;
 
 // constructor
-
-//hello
-public DataProcessor(double[][][] data, double[][] limit) {
+//fixed constructor name by ( Salman )
+public SensorDataProcessor(double[][][] data, double[][] limit) {
     this.data = data;
     this.limit = limit;
 }
