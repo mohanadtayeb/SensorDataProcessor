@@ -29,7 +29,7 @@ private double average(double[] array) {
     
 // calculate data
 public void calculate(double d) {
-    int i, j, k; //fixed by mshary
+    int i, j, k; //fixed by ( mshary )
     double[][][] data2 = new
             double[data.length][data[0].length][data[0][0].length];
     BufferedWriter out;
