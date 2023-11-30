@@ -59,7 +59,7 @@ public void calculate(double d) {
         }
         out.close();
     } catch (Exception e) {
-        System.out.println("Error= " + e);
+     e.printStackTrace();  // fixed by mohanad
     }
 }
 }
